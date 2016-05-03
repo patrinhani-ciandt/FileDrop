@@ -547,7 +547,7 @@
 
   global.extend(global, {
     // If set all event calls will be logged to console if one is present.
-    logging: true,
+    logging: false,
 
     // Indicates if console.log and console.dir are available for usage.
     hasConsole: 'console' in window && console.log && console.dir,
